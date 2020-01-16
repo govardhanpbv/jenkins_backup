@@ -1,0 +1,81 @@
+Started by GitHub push by govardhanpbv
+Running as SYSTEM
+Building remotely on [8mha:////4CTAfAEzL+ReVR/DvgOYT3ZGEz0uzcPl8NTTfHKyNSF/AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKcxLLUeHMAvOG5ycYAAAA=[0mslave_7 in workspace /home/ec2-user/workspace/workspace/build_java
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/govardhanpbv/reddy.git # timeout=10
+Fetching upstream changes from https://github.com/govardhanpbv/reddy.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/govardhanpbv/reddy.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0d290c195bb71ba27e7df558194f37a14b98074a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0d290c195bb71ba27e7df558194f37a14b98074a # timeout=10
+Commit message: "webhooks"
+ > git rev-list --no-walk 0f58f8544d5420666f44b86776ee1e8e52d2d01a # timeout=10
+[build_java] $ /bin/sh -xe /tmp/jenkins572350797417462894.sh
++ cd /home/ec2-user/workspace/workspace/build_java/
++ mvn compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< jenkins_maven:factorial >-----------------------
+[INFO] Building factorial 1
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ factorial ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/workspace/build_java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ factorial ---
+[INFO] No sources to compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.190 s
+[INFO] Finished at: 2020-01-14T20:48:56Z
+[INFO] ------------------------------------------------------------------------
++ mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< jenkins_maven:factorial >-----------------------
+[INFO] Building factorial 1
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ factorial ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/workspace/build_java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ factorial ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ factorial ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/workspace/build_java/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ factorial ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ factorial ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ factorial ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [factorial] in [/home/ec2-user/workspace/workspace/build_java/target/factorial-1]
+[INFO] Processing war project
+[INFO] Webapp assembled in [45 msecs]
+[INFO] Building war: /home/ec2-user/workspace/workspace/build_java/target/factorial-1.war
+[INFO] 
+[INFO] --- maven-shade-plugin:2.2:shade (default) @ factorial ---
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/ec2-user/workspace/workspace/build_java/target/factorial-1.war with /home/ec2-user/workspace/workspace/build_java/target/factorial-1-shaded.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.761 s
+[INFO] Finished at: 2020-01-14T20:49:02Z
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4J4AxrX2/mrGsoICqMDYgV102pN3/uETBR/JbtWlqrdBAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2X1IKc/Mp4sHEApy4C58YAAAA=[0mDeploy_java
+Triggering a new build of [8mha:////4J4AxrX2/mrGsoICqMDYgV102pN3/uETBR/JbtWlqrdBAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2X1IKc/Mp4sHEApy4C58YAAAA=[0mDeploy_java
+Finished: SUCCESS

@@ -1,0 +1,26 @@
+Started by user [8mha:////4GGdvhj7boZj/L8MUX+Lg6+fUVbJby3LFzoiNlmeH75oAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZ+/dLi1CL99PyyxKKUjMQ8AMU5TVvEAAAA[0mGovardhan Reddy
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/C_programs_test
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/govardhanpbv/test.git # timeout=10
+Fetching upstream changes from https://github.com/govardhanpbv/test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/govardhanpbv/test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7213cd310d4fb9953bcc37519d7311b02637fa42 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7213cd310d4fb9953bcc37519d7311b02637fa42 # timeout=10
+Commit message: " test in C"
+ > git rev-list --no-walk 7213cd310d4fb9953bcc37519d7311b02637fa42 # timeout=10
+[C_programs_test] $ /bin/sh -xe /tmp/jenkins9003150966793018820.sh
++ cd /var/lib/jenkins/workspace/C_programs_test
++ make
+make: 'reddy.exe' is up to date.
++ scp -pr /var/lib/jenkins/workspace/C_programs_test/reddy.exe ec2-user@172.31.28.57:/home/ec2-user/
+Host key verification failed.
+lost connection
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

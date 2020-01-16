@@ -1,0 +1,11 @@
+Started on Jan 14, 2020 8:48:44 PM
+Started by event from 192.30.252.91 ⇒ http://52.15.69.130:8080/github-webhook/ on Tue Jan 14 20:48:44 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision 0f58f8544d5420666f44b86776ee1e8e52d2d01a (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/govardhanpbv/reddy.git # timeout=10
+Found 1 remote heads on https://github.com/govardhanpbv/reddy.git
+[poll] Latest remote head revision on refs/heads/master is: 0d290c195bb71ba27e7df558194f37a14b98074a
+Done. Took 0.1 sec
+Changes found
