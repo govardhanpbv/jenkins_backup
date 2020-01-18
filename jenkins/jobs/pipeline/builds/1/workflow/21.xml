@@ -1,0 +1,61 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.78">
+    <parentIds>
+      <string>20</string>
+    </parentIds>
+    <id>21</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.78">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+					set +x
+					file=&quot;$(pwd)/c_programs/ABC.exe&quot;
+					[[ -f &quot;$file&quot; ]] &amp;&amp; rm -f &quot;$file&quot;
+					pwd; chmod 777 build; ./build 1&gt; /dev/null
+					
+				echo -e &quot;
+
+**************************** This is a Deploy JOB $file **************************** &quot;
+				if [[ -f &quot;$file&quot; ]]; then 
+				echo -e &quot;
+STEP 1: Deploying $file with default input........&quot;
+				$file -v -i &lt;&lt;&lt;&quot;5 400 500 600&quot;
+
+				if [ $? -eq 0 ]; then
+				  if [[ -x &quot;$file&quot; ]]; then  
+					  echo -e &quot;
+STEP 2:	Deployment Successful - Build pushed to artifactory&quot;
+					  echo &quot;       	ARTIFACTORY_PATH: /home/ec2-user/builds/$file&quot;
+				  fi
+				else  
+					  echo -e &quot;**************** ERROR *********************
+&quot;
+					  echo &quot;Deployment failure - ABC.exe cannot be executed &quot;
+					  echo -e &quot;********************************************
+&quot;
+					  exit 1
+				fi
+				else 
+					 echo -e &quot;**************** ERROR *********************
+&quot;
+					  echo &quot;Build - ABC.exe notfound $file &quot;
+					  echo -e &quot;********************************************
+&quot;
+					  exit 1
+				fi
+				</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.38">
+      <startTime>1579349635193</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

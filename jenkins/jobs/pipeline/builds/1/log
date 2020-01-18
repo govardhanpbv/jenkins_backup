@@ -1,0 +1,220 @@
+Started by user [8mha:////4GGdvhj7boZj/L8MUX+Lg6+fUVbJby3LFzoiNlmeH75oAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZ+/dLi1CL99PyyxKKUjMQ8AMU5TVvEAAAA[0mGovardhan Reddy
+Obtained Jenkinsfile from git https://github.com/govardhanpbv/pipeline_jan.git
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4LKHSoWQrXVXmZRuThmQC95EZdy40Mu3euhnq2vrpvWxAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4ANbiQYpHRth48+1NkYQl1jZtTBL86e8z4RddJ9wzjjwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Goql3RpvTgkk113Zs2CA776yiAPOekuF6IEOTlYt3FMAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/pipeline
+[8mha:////4PIVFBWa4TON5kZ4BiGai1iyfBPx2XeYuaA2vSEixbhKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4LXhPg59nFuUDBjBzcwLiUWvkMUnbxC5uAifiXrLqZAIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4A9C1R/VmoWU/BYByGXsS6KJgybtBQZDQQ5tC3qs8skXAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4NwvcYupK7cvT9HjraCq7cumBKPL+HLJ/BsFfRo2FEsEAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/govardhanpbv/pipeline_jan.git
+ > git init /var/lib/jenkins/workspace/pipeline # timeout=10
+Fetching upstream changes from https://github.com/govardhanpbv/pipeline_jan.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/govardhanpbv/pipeline_jan.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/govardhanpbv/pipeline_jan.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/govardhanpbv/pipeline_jan.git # timeout=10
+Fetching upstream changes from https://github.com/govardhanpbv/pipeline_jan.git
+ > git fetch --tags --progress -- https://github.com/govardhanpbv/pipeline_jan.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 81636ec4d58bf376d5c9989db23a6d26d8ef74e6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 81636ec4d58bf376d5c9989db23a6d26d8ef74e6 # timeout=10
+Commit message: "edited jenkinsfile"
+First time build. Skipping changelog.
+[8mha:////4JIttgoQpxgIzi/MNNBgIwM4PwJ3LMiCbwYx/hy9RvA8AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4OqJVfd9DJQijnqZF/VYR1ril+MxMvRHHfRIlcPMijz+AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4EpFp0UPdpficfNuqj3fWw4D/3VXg8/JWRVkB905AjL/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4GQfkvKRrRcBFyGamH9ZG2ywzCicNUsmFm2C4flkOsS8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4FcLKjDyRr6LqLFkhzJO8G1sHlT4sJIDuTr07ZI2OiwWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4G3FIQgCMmBA8WtlIyx/593FrprMOv2JInTuaDAkJMSoAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Build)
+[8mha:////4GIn1JOxP2n1elwiYOEavDjuw2csyVCkXJmKEiiB7Zv4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] echo
+Building..
+[8mha:////4OBSx/whVmcgLYBtNaxyjvyn+8ZUOTjOdMmUoILBvG8yAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] sh
++ set +x
+
+
+**************************** This is a Build JOB **************************** 
+
+
+STEP 3:	Initiating Build for below files (using make)........
+     1) fact.c      2) main.c      3) oddeven.c      4) sumof2no.c      5) test.c 
+
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:5:2: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+  fact();
+  ^~~~
+main.c:6:2: warning: implicit declaration of function ‘oddeven’ [-Wimplicit-function-declaration]
+  oddeven();
+  ^~~~~~~
+main.c:7:2: warning: implicit declaration of function ‘sumof2no’ [-Wimplicit-function-declaration]
+  sumof2no();
+  ^~~~~~~~
+gcc -c fact.c
+gcc -c oddeven.c
+gcc -c sumof2no.c
+gcc -o ABC.exe main.o fact.o oddeven.o sumof2no.o
+
+STEP 4:	Build Successful
+       	BUILD_FILE: /var/lib/jenkins/workspace/pipeline/c_programs/ABC.exe
+
+************************************************************************** 
+[8mha:////4HaJaoDS5oHvW3Eea9wfmO3pSPLjWwnCq1ar8FcWb6+cAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4O8JalqO/D6pRs2jTlQuNS7M8miGhkZKp4s3w+5YiAlKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4NSBsv9/Q+8qJ/LcG8Mxq1+CGO+2z2RA+qQSC6siQXUsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] stage
+[8mha:////4FSGm5dQJ0+yejvNjjfE8Ya6mNb662+Hkgw6Fkmu6YTUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (deploy)
+[8mha:////4K4R+EulEYyEjYDbEJ8skDkmjU1X5hgy0M/S/7BrqV5GAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] echo
+Deploying to TEST environment..
+[8mha:////4HFrP5hy3390wM61sGegMWOZrFCBzoqLQplG2qIWuTbeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ set +x
+/var/lib/jenkins/workspace/pipeline
+
+
+**************************** This is a Deploy JOB /var/lib/jenkins/workspace/pipeline/c_programs/ABC.exe **************************** 
+
+STEP 1: Deploying /var/lib/jenkins/workspace/pipeline/c_programs/ABC.exe with default input........
+
+Enter an integer to find the factorial: Factorial of 5 = 120
+
+Enter an integer to find if its odd/even number: 400 is even.
+
+Enter two integers: Sum of 500 and 600 is 1100
+
+STEP 2:	Deployment Successful - Build pushed to artifactory
+       	ARTIFACTORY_PATH: /home/ec2-user/builds//var/lib/jenkins/workspace/pipeline/c_programs/ABC.exe
+[8mha:////4PGBVh74GrpIYBO2VCxntNAOBQdJusiZiPj32AJ9u3hxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+[8mha:////4ObG5zPNS6w8DcpONFJg9I/3vMhdsKLxJJTxovP5JDEjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BrdqLa32O4A0+dQclmNEAZosuZImLrxM1eRSzTlwRiPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohURWyIqWvUhROEJoSk0f8lSUknTsTVuAOBSkx4sGxL1nu+oAoejuQ1swoHg6E3bHSTzokl8sPFUWKWzqwnDOQU61TqSKp2qR1FBYuKElYc1gp7R8GgjrDhVtxF7QTq+hR93g4cSiNv8ICCZ3IUPn7L7GF7nWQg/HH+AmAeI5RNk223/zyrN+/1G3zCAAAA[0m[Pipeline] stage
+[8mha:////4ARuwK411GwS3cegEN0ttkVucbbx2Qwv7+BOj/opWQ/tAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (test)
+[8mha:////4BaV4vcGfJgPbXqPHwy4d5Hq8ITMAmBoMR7rpcEKoEjjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] echo
+Testing....
+[8mha:////4Lex9QQ85NbctTKQX8HW78AAPwgnyEkuNUhWBUyfciWZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] sh
++ set +x
+/var/lib/jenkins/workspace/pipeline
+
+
+**************************** This is a Deploy JOB for /var/lib/jenkins/workspace/pipeline/c_programs/ABC.exe**************************** 
+
+-------------------------- TEST_CASE (1) --------------------------
+
+Enter an integer to find the factorial: Factorial of 12 = 479001600
+
+Enter an integer to find if its odd/even number: 7430 is even.
+
+Enter two integers: Sum of 9 and 358 is 367
+
+      RESULT -> TEST_CASE (1): SUCCESS
+-------------------------------------------------------------------
+
+-------------------------- TEST_CASE (2) --------------------------
+
+Enter an integer to find the factorial: Factorial of 6 = 720
+
+Enter an integer to find if its odd/even number: 1440 is even.
+
+Enter two integers: Sum of 60 and 100 is 160
+
+      RESULT -> TEST_CASE (2): SUCCESS
+-------------------------------------------------------------------
+
+-------------------------- TEST_CASE (3) --------------------------
+
+Enter an integer to find the factorial: Factorial of 9 = 362880
+
+Enter an integer to find if its odd/even number: 8917 is odd.
+
+Enter two integers: Sum of 18 and 352 is 370
+
+      RESULT -> TEST_CASE (3): SUCCESS
+-------------------------------------------------------------------
+
+-------------------------- TEST_CASE (4) --------------------------
+
+Enter an integer to find the factorial: Factorial of 5 = 120
+
+Enter an integer to find if its odd/even number: 5353 is odd.
+
+Enter two integers: Sum of 67 and 518 is 585
+
+      RESULT -> TEST_CASE (4): SUCCESS
+-------------------------------------------------------------------
+
+-------------------------- TEST_CASE (5) --------------------------
+
+Enter an integer to find the factorial: Factorial of 5 = 120
+
+Enter an integer to find if its odd/even number: 6360 is even.
+
+Enter two integers: Sum of 43 and 864 is 907
+
+      RESULT -> TEST_CASE (5): SUCCESS
+-------------------------------------------------------------------
+
+-------------------------- TEST_CASE (6) --------------------------
+
+Enter an integer to find the factorial: Factorial of 6 = 720
+
+Enter an integer to find if its odd/even number: 5485 is odd.
+
+Enter two integers: Sum of 77 and 88 is 165
+
+      RESULT -> TEST_CASE (6): SUCCESS
+-------------------------------------------------------------------
+
+-------------------------- TEST_CASE (7) --------------------------
+
+Enter an integer to find the factorial: Factorial of 14 = 1278945280
+
+Enter an integer to find if its odd/even number: 3094 is even.
+
+Enter two integers: Sum of 96 and 232 is 328
+
+      RESULT -> TEST_CASE (7): SUCCESS
+-------------------------------------------------------------------
+
+-------------------------- TEST_CASE (8) --------------------------
+
+Enter an integer to find the factorial: Factorial of 13 = 1932053504
+
+Enter an integer to find if its odd/even number: 4048 is even.
+
+Enter two integers: Sum of 2 and 806 is 808
+
+      RESULT -> TEST_CASE (8): SUCCESS
+-------------------------------------------------------------------
+
+-------------------------- TEST_CASE (9) --------------------------
+
+Enter an integer to find the factorial: Factorial of 9 = 362880
+
+Enter an integer to find if its odd/even number: 5688 is even.
+
+Enter two integers: Sum of 23 and 178 is 201
+
+      RESULT -> TEST_CASE (9): SUCCESS
+-------------------------------------------------------------------
+
+-------------------------- TEST_CASE (10) --------------------------
+
+Enter an integer to find the factorial: Factorial of 8 = 40320
+
+Enter an integer to find if its odd/even number: 7867 is odd.
+
+Enter two integers: Sum of 50 and 212 is 262
+
+      RESULT -> TEST_CASE (10): SUCCESS
+-------------------------------------------------------------------
+[8mha:////4PYRp1frPCnRaj3KDBpaAKa8bWC1jBKzdsPYbeezsagGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU2/2ndm8FmBaQvgAAAA==[0m[Pipeline] }
+[8mha:////4NEsp5XPvmpeltqbav6jVzqAIlGl5cry7/25tAilgBJLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQE2e00svgAAAA==[0m[Pipeline] // stage
+[8mha:////4FJCove22q0uJUbnFr+Il/j6NDBkgI3H5MuvzdrNlWhbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhokRUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzsc9X1BwaGcva+AAAA[0m[Pipeline] }
+[8mha:////4PctramirRGH7nQp0zheOXMef1+zHslOsTWPIWMdf/HYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhokRUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzUuer9BzVlKUq+AAAA[0m[Pipeline] // withEnv
+[8mha:////4F3a9yX9+S/zi24WcpMMeKkft1arEr5VIGEwp5qv8+g3AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8B7tlN5b0AAAA=[0m[Pipeline] }
+[8mha:////4MFe5ijxZeZ/xHb18EJxoJ4fQ+E5x9F6gc2AQm44Mb/WAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUlI6VbYbGE0SIMZDZhWQRKk/k1byDjMxY+av/XvNeb2xTxImjU62lzlOqverD6JanJo7dLfCkWr6qmilxsKqyU8WNPa9YsVisy3JsNHaW6sDJkxPsdWsepgiGXHGRuLijRu6bAU9keimLifKFOeJwH5vE9Ov8DWDue0FeloKs/AD9ZUlGvQAAAA==[0m[Pipeline] // node
+[8mha:////4HmX9i3Z+0qVdyxrAa2cPGLtXJJCffR500EcXI3l8rsCAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q7/aCbPsBe4lug70AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
