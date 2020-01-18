@@ -1,0 +1,14 @@
+Started by upstream project "[8mha:////4I63cj2o8Sd7ghffv+On5Wkq3eHiEmYoT9JuWlkcBy4WAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP2k0syclHiwaQCGT/D+xQAAAA==[0mbuild_java" build number [8mha:////4AfBI7s0U2vCXTW3UO7qNExp3twtfG/dnxriw4pXQuqtAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkH9rPwk/aTSzJyUeLBpRgAjVU6vxgAAAA==[0m2
+originally caused by:
+ Started by GitHub push by govardhanpbv
+Started by upstream project "[8mha:////4I63cj2o8Sd7ghffv+On5Wkq3eHiEmYoT9JuWlkcBy4WAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP2k0syclHiwaQCGT/D+xQAAAA==[0mbuild_java" build number [8mha:////4AfBI7s0U2vCXTW3UO7qNExp3twtfG/dnxriw4pXQuqtAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkH9rPwk/aTSzJyUeLBpRgAjVU6vxgAAAA==[0m2
+originally caused by:
+ Started by GitHub push by govardhanpbv
+Running as SYSTEM
+Building remotely on [8mha:////4CTAfAEzL+ReVR/DvgOYT3ZGEz0uzcPl8NTTfHKyNSF/AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKcxLLUeHMAvOG5ycYAAAA=[0mslave_7 in workspace /home/ec2-user/workspace/workspace/Deploy_java
+[Deploy_java] $ /bin/sh -xe /tmp/jenkins5603634758291243724.sh
++ cd /home/ec2-user/workspace/workspace/build_java/target/
++ scp -pr factorial-1.war original-factorial-1.war ec2-user@172.31.44.161:/home/ec2-user/tomcat/webapps/
+Triggering a new build of [8mha:////4MvxDJmlSv2bz9wM+1PX7qfTOUZD+NOeK4F6ZEvbgAM9AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2Q1OKSeLBhALUKMc3EAAAA[0mTest_java
+Triggering a new build of [8mha:////4MvxDJmlSv2bz9wM+1PX7qfTOUZD+NOeK4F6ZEvbgAM9AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2Q1OKSeLBhALUKMc3EAAAA[0mTest_java
+Finished: SUCCESS
